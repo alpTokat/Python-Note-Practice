@@ -44,7 +44,7 @@ def not_gir():
     not2 = input("not 2: ")
     not3 = input("not 3: ")
     with open('new_file.txt','a',encoding='utf-8')as file:
-        file.write(f"{isim},{not1},{not2},{not3}")
+        file.write(f"\n{isim},{not1},{not2},{not3}")
         
 
 def notlari_kaydet():
